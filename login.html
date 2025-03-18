@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="app.js"></script>
+</head>
+<body>
+
+<!-- <button onclick="" class="search-button">Buscar</button>
+<input type="search" name="" id="" class="search"><br><br> -->
+
+<!-- <button class="line">Peliculas</button>
+
+<button class="line">Animes</button>
+
+<button class="line">Series</button>
+
+<button class="line">Nuevos</button>
+
+<button class="line">Juegos</button> -->
+<hr>
+<!-- <button onclick="volver()" id="logoutButton" class="line">Salir</button> -->
+
+<!-- <h8 class="top">TostonesCuisca</h8> -->
+
+
+
+
+
+<div id="confirmationModal" class="modal">
+    <center><div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <p>¿Estás seguro de que deseas salir?</p>
+        <button id="confirmYes" class="confirmbutton">Sí</button>
+        <button id="confirmNo" class="confirmbutton">No</button>
+    </div></center>
+</div>
+
+<!-- <video style="width: 25%; height: 25%; position: fixed;" src="trade.mp4" controls></video> -->
+<center><h1 style="color: white; background-color: rgba(46, 45, 44, 0.31); border-style: solid; border-radius: 18px; padding: 5px; width: 25%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Tostones Baratos</h1></center>
+
+
+<hr>
+<h8 class="tostosclass" style="margin-left: 120px;">Limon</h8> 
+<h8 class="tostosclass" style="margin-left: 280px;">Ajo</h8> 
+<h8 class="tostosclass" style="margin-left: 250px;">Especiales</h8> 
+<h8 class="tostosclass" style="margin-left: 220px;">Doritos</h8><br><br>
+
+<div class="hola">
+    <h8 class="barra">TuCarrito: </h8>
+<label id="texto_nav1" class="barra"></label> 
+<h8 class="barra">||</h8>
+<h8 class="barra"> Precio: </h8>
+<label id="precio" class="barra"></label>
+<button onclick="list()" class="barra" style="background-color: rgba(0, 0, 0, 0.421); border-radius: 20px; border-color: white;">Completar Orden</button>
+</div><br>
+
+<img style="width: 24.8%; height:50%;" src="toston.jpg" alt="">
+<img style="width: 24.7%; height:50%;" src="toston.jpg" alt="">
+<img style="width: 24.7%; height:50%;" src="toston.jpg" alt="">
+<img style="width: 24.8%; height:50%;" src="toston.jpg" alt="">
+<h1></h1>
+<button class="line2" id="1" onclick="buy1()">Comprar Toston 35Bs</button>
+<button class="line2" id="2" onclick="buy2()">Comprar Toston 45Bs</button>
+<button class="line2" id="3" onclick="buy3()">Comprar Toston 25Bs</button>
+<button class="line2" id="4" onclick="buy4()">Comprar Toston 55Bs</button>
+<br><br>
+<center>
+<div id="tabla">
+    
+</div>
+</center><br>
+
+
+<center><form
+    action="https://formsubmit.co/juan090320082@gmail.com" 
+    method="POST">
+    <div class="form-container">
+        <h4 style="color: white; font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 10px;">Formulario De Compra</h4>
+    <input class="form" type="text" name="nombres" id="nombres" placeholder="Ingrese Su Nombre">
+    <input class="form" type="text" name="ubicacion" id="ubicacion" placeholder="Ingrese Su Ubicacion">
+    <input class="form" type="email" name="correo" id="correo" placeholder="Ingrese Su Correo">
+    <textarea class="form-comments" name="comments" id="" placeholder="Comentarios"></textarea><br>
+    <textarea hidden name="compra" id="compra"></textarea><br>
+    <input onclick="enviar()" class="form-button" type="submit" value="enviar">
+
+    <input type="hidden" name="_next" value="https://pruebas280.github.io/TostonesWeb/">
+    <input type="hidden" name="_captcha" value="false">
+
+    </div>
+</form>
+</center>
+
+
+
+
+</body>
+</html>
+
